@@ -16,7 +16,7 @@ class CarPreview extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.fromLTRB(25, 25, 0, 0),
             child: Text(
-              'Infinity Renault',
+              'Infinity Renault~',
               style: Theme.of(context).textTheme.headline1,
             ),
           ),
