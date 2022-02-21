@@ -1,4 +1,4 @@
-name: copy files
+name: gh pages release
 on: [push]
 jobs:
 
@@ -10,5 +10,5 @@ jobs:
       - name: copy file
         uses: canastro/copy-file-action@master
         with:
-          source: "build/index.html"
-          target: "docs/index.html"
+          source: "build/web"
+          target: "docs/"
