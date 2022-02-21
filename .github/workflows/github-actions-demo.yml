@@ -1,4 +1,4 @@
-name: copy build web
+name: release to ghpages
 on: [push]
 jobs:
 
